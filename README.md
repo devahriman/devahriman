@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Ahriman Dev</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&color=00FFEA&size=22&center=true&vCenter=true&width=440&lines=I+am;Is;a+Code+Lover" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&color=00FFEA&size=22&center=true&vCenter=true&width=440&lines=I+am;a;Code+Lover" alt="Typing SVG" />
 </p>
 
 ---
