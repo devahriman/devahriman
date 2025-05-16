@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ahriman dev - Resume</title>
+  <link rel="shortcut icon" href="avatar.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-animation"></div>
+
+  <header>
+    <img src="avatar.png" alt="ahriman avatar" class="avatar" />
+    <h1><span class="typing"></span></h1>
+    <p>I’m a Code Lover</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I’m a junior developer passionate about backend, automation, and learning new technologies. I believe in writing clean, readable code and continuous self-improvement.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>PHP</li>
+      <li>Telegram Bot</li>
+      <li>HTML5 & CSS3</li>
+      <li>Version Control (Git & GitHub)</li>
+      <li>Databases (MYSQL)</li>
+      <li>WordPress</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/devahriman/technical_vpn" target="_blank">Technical VPN</a> : a Telegram Bot for selling vpn from marzneshin</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: devahriman@gamil.com</p>
+    <p>GitHub: <a href="https://github.com/devahriman" target="_blank">github.com/devahriman</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 ahriman dev</p>
+  </footer>
+
+  <script>
+    const typing = document.querySelector(".typing");
+    const texts = ["Ahriman Dev", "Is", "a Code Lover"];
+    let i = 0, j = 0, isDeleting = false;
+
+    function type() {
+      typing.textContent = texts[i].substring(0, j);
+      if (!isDeleting && j < texts[i].length) {
+        j++;
+        setTimeout(type, 100);
+      } else if (isDeleting && j > 0) {
+        j--;
+        setTimeout(type, 60);
+      } else {
+        isDeleting = !isDeleting;
+        if (!isDeleting) i = (i + 1) % texts.length;
+        setTimeout(type, 1000);
+      }
+    }
+
+    type();
+  </script>
+</body>
+</html>
