@@ -22,7 +22,7 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-0f0f0f?logo=css3&logoColor=1572b6)
 ![WordPress](https://img.shields.io/badge/-WordPress-0f0f0f?logo=wordpress&logoColor=21759b)
 ![Git](https://img.shields.io/badge/-Git-0f0f0f?logo=git&logoColor=orange)
-![Telegram](https://img.shields.io/badge/-Telegram-0f0f0f?logo=telegram&logoColor=00b2ff)
+![Telegram Bot](https://img.shields.io/badge/-Telegram-0f0f0f?logo=telegram&logoColor=00b2ff)
 
 ---
 
@@ -30,6 +30,7 @@
 
 - **Email:** devahriman@gmail.com  
 - **GitHub:** [@devahriman](https://github.com/devahriman)
++ **Telegram** [@dev_ahriman](https://dev_ahriman.t.me)
 
 ---
 
